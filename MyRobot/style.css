@@ -1,0 +1,158 @@
+body{
+    background-image: url(/images/Backround_robots.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:nowrap;
+    margin-top: 5px;
+}
+
+.botoninput{
+    height: 50px;
+    width: 260px;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    background-color: rgba(3, 53, 217, 0.72);
+    border-radius: 5px;
+    border-color: azure;
+}
+
+input{
+    font-size: 16px;
+    background-color: rgba(244, 244, 244, 0.578);
+    border-radius: 4px;
+    border: 1px;
+    }
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+h2{
+    text-shadow: 0 5px 15px rgb(84, 20, 20);
+    color: rgba(255, 255, 255, 0.971);
+}
+
+textarea{
+    resize: none;
+}
+
+.obligatorio{
+    color: rgb(255, 0, 0);
+}
+
+fieldset{
+    border-radius: 20px;
+    border-color: rgba(213, 222, 232, 0.886)
+    
+}
+
+.caja{
+
+    background-color: rgba(22, 167, 160, 0.594);
+    border-color: rgb(191, 255, 234);
+    display: flex;
+    width: 500px;
+    justify-content: center;
+}
+
+.dividir{
+    background-color: rgba(3, 40, 96, 0.417);
+    display: flex;
+    width: 800px;
+    justify-content: center;
+}
+
+form{
+    margin: 10px;
+    
+}
+
+.menu{
+    padding-top: 5px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    border-radius: 5px;
+    background-color: rgba(0, 140, 255, 0.782);
+    border-style: solid;
+    border-color: black;
+    
+}
+
+.Linea{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.Contenido{
+    display: flex;
+    align-items: center;
+}
+
+.cards{
+margin-left: 150px;
+padding: 0% 0;
+border: 2px solid #000;
+border-radius: 3%;
+background-color: rgba(255, 255, 255, 0.895);
+width: 300px;
+margin: 100px;
+box-shadow: 15px 15px 15px;
+}
+
+
+.robots{
+    border-radius: 3%;
+    width: 300px;
+    
+}
+
+.robots:hover{
+    transition: 2.5s;
+    scale: 200%;
+}
+
+.textcards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+#MyRobot{
+    display: flex;
+    align-items: flex-end; 
+
+}
+
+.biografia{
+    z-index: 4;
+    background-color: beige;
+}
+
+.price{
+    color: red;
+    font-size: xx-large;
+}
+
+footer{
+    text-shadow: 0 0 7px white;
+}
